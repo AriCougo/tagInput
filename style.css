@@ -1,0 +1,97 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(25deg, #6f89df, #101fc4);
+}
+
+.tags-app{
+    border: none;
+    padding: 25px;
+    width: 30%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 10px 5px 5px  #14141433;
+
+}
+
+h1{
+    cursor: default;
+}
+
+#tag-input{
+    display: flex;
+    width: 90%;
+    padding: 15px;
+    border: 0.5px solid #3333;
+    box-shadow:  5px 5px 5px -6px  inset;
+    outline: none;
+}
+
+#tag-section{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    border: 1px solid #3333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none;
+    cursor:default;
+   
+}
+
+.style{
+    display: flex;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(114, 184, 250);
+}
+
+.style:hover{
+    box-shadow: 4px 2px 5px #3333;
+}
+
+.tag{
+    margin-left: 10px;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer; 
+} 
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+p{
+    cursor: default;
+}
+
+#delete-all-btn{
+    display: flex;
+    background: none;
+    border: 2px solid rgb(3, 64, 139);
+    color: rgb(6, 47, 97);
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#delete-all-btn:hover{
+    box-shadow: 2px 5px 5px  #14141433;
+    transform: scale(1.03);
+}
